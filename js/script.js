@@ -12,6 +12,10 @@ $(document).ready(function() {
         $('.gallery').removeClass('change');
       }
     })
+
+    $('.writers-accordion').click(function(event){
+      console.log(event.target.id)
+    })
 })
 
 
